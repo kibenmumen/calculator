@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Calculator</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./styles.css'>
+    <script src='./script.js' defer></script>
+</head>
+
+<body>
+    <div id="container">
+        <div id="calculator">
+            <div id="screen">
+                <output class="user-input" type="text"></output>
+                <output class="output"></output>
+            </div>
+            <button class="allClear" data-type="allClear" id="">AC</button>
+            <button class="delete"   data-type="delete"   id="">&larr;</button>
+            <button class="operator" data-type="operator" id="" value="%">%</button>
+            <button class="digit"    data-type="operator"    id="" value="/">÷</button>
+            <button class="digit"    data-type="number"    id="" value="7">7</button>
+            <button class="digit"    data-type="number"    id="" value="8">8</button>
+            <button class="digit"    data-type="number"    id="" value="9">9</button>
+            <button class="operator" data-type="operator" id="" value="*">×</button>
+            <button class="digit"    data-type="number"    id="" value="4">4</button>
+            <button class="digit"    data-type="number"    id="" value="5">5</button>
+            <button class="digit"    data-type="number"    id="" value="6">6</button>
+            <button class="operator" data-type="operator" id="" value="-">-</button>
+            <button class="digit"    data-type="number"    id="" value="1">1</button>
+            <button class="digit"    data-type="number"    id="" value="2">2</button>
+            <button class="digit"    data-type="number"    id="" value="3">3</button>
+            <button class="operator" data-type="operator" id="" value="+">+</button>
+            <button class="digit"    data-type="number"    id="" value="0">0</button>
+            <button class="decimal"  data-type="decimal"  id="" value=".">.</button>
+            <button class="equals"   data-type="equals"   id="" value="=">=</button>
+        </div>
+    </div>
+</body>
+<footer>
+    <p>KibenMumen &copy; 2022</p>
+</footer>
+
+</html>
